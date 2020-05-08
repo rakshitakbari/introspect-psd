@@ -1,0 +1,54 @@
+#feature{
+    position: relative;
+    padding: 60px 0;
+    @include media-breakpoint-down(sm) {
+        padding: 50px 0;
+    }
+    .feature-thumb{
+        cursor: pointer;
+        display: block;
+        background: $white;
+        box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        padding: 30px;
+        text-align: center;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+        position: relative;
+        margin-bottom: 30px;
+        @include media-breakpoint-down(sm){
+            margin-bottom: 20px;
+        }
+        span{
+            background: $theme-color;
+            border-radius: 50px;
+            color: $white;
+            font-size: 25px;
+            font-weight: bold;
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            margin-bottom: 5px;
+            transition: 1s;
+            &:hover{
+                background-color: transparent;
+                border: 1px solid $theme-color;
+                color: $black;
+                transition: 1s;
+            }
+        }
+        h3 {
+            margin: 10px 0;
+            font-size: 1.5em;
+            font-weight: bold;
+            line-height: inherit;
+            font-family: $font-family;
+        }
+    }
+}

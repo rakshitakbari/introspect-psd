@@ -1,0 +1,23 @@
+footer{
+    background-color: $white;
+    padding: 40px 0;
+    .social{
+        display: flex;
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+        li{
+            padding: 10px 20px;
+            display: inline-block;
+            i{
+                list-style: none;
+                border: 1px solid $black;
+                padding: 16px;
+                border-radius: 30px;
+            }
+        }
+    }
+}
